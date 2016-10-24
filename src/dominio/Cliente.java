@@ -13,6 +13,10 @@ package dominio;
 
 public class Cliente {
 	private String nome;
+	
+	public Cliente(String _nome) {
+		setNome(_nome);
+	}
 
 	public void setNome(String _nome) {
 		nome = _nome;

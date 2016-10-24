@@ -27,7 +27,7 @@ public abstract class NotaFiscal {
 	public float valorProdutos() {
 		float valorProd = 0;
 		for (Produto prod: listaProdutos) {
-	    	valorProd =+ prod.getPreco();
+	    	valorProd += prod.getPreco();
 	    }
 		return valorProd;
 	}
@@ -54,4 +54,6 @@ public abstract class NotaFiscal {
 		return listaProdutos;
 	}
 
+	
+	
 }

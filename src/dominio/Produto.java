@@ -15,6 +15,16 @@ public class Produto {
 	private String descricao;
 	private float preco;
 	
+	public Produto (String _descricao, float _preco) {
+		setDescricao(_descricao);
+		setPreco(_preco);
+	}
+	
+	@Override
+	public String toString() {
+		return (descricao + "\t\t" + preco);
+	}
+
 	public void setDescricao(String _descricao) {
 		if (_descricao != "") 
 			descricao = _descricao;

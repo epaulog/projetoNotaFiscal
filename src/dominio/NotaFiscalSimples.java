@@ -18,7 +18,7 @@ public class NotaFiscalSimples extends NotaFiscal{
 	}
 	
 	public float imposto() {
-		return (this.valorProdutos() * 1.20f);
+		return (this.valorProdutos() * 0.20f);
 	};
 	
 }
